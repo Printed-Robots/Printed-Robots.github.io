@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Printed Robots – Testing</title>
+    <link>https://printed-robots.github.io/docs/testing/</link>
+    <description>Recent content in Testing on Printed Robots</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://printed-robots.github.io/docs/testing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>

@@ -26,12 +26,12 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/no/docs/cloud-computing/tutorials/the-inside-of-go-the-inner-workings/" />
 <meta property="article:published_time" content="2017-01-04T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-06-06T13:46:43+02:00" /><meta property="og:site_name" content="Printed Robots" />
+<meta property="article:modified_time" content="2020-06-06T13:51:13+02:00" /><meta property="og:site_name" content="Printed Robots" />
 <meta itemprop="name" content="Innsiden av Go: Drivverket">
 <meta itemprop="description" content="En kort oppsummering av denne siden. Tekst kan **utheves** sller skrives i _kursiv_ og kan ha flere avsnitt.
 ">
 <meta itemprop="datePublished" content="2017-01-04T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-06-06T13:46:43&#43;02:00" />
+<meta itemprop="dateModified" content="2020-06-06T13:51:13&#43;02:00" />
 <meta itemprop="wordCount" content="1214">
 
 
@@ -66,7 +66,7 @@
       
 <nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
         <a class="navbar-brand" href="/no/">
-		<span class="navbar-logo"><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" sodipodi:docname="logo.svg" inkscape:version="1.0 (4035a4fb49, 2020-05-01)" id="svg8" viewBox="0 0 210 297" height="297mm" width="210mm"><defs id="defs2"/><sodipodi:namedview inkscape:window-maximized="1" inkscape:window-y="-6" inkscape:window-x="-6" inkscape:window-height="938" inkscape:window-width="1500" showgrid="false" inkscape:document-rotation="0" inkscape:current-layer="layer1" inkscape:document-units="mm" inkscape:cy="341.44967" inkscape:cx="255.99536" inkscape:zoom="1.4" inkscape:pageshadow="2" inkscape:pageopacity="0" borderopacity="1" bordercolor="#666666" pagecolor="#ffffff" id="base"/><g inkscape:label="Ebene 2" id="layer2" inkscape:groupmode="layer"><circle r="45" cy="81.831848" cx="66.051338" id="path24" style="fill:#000;stroke-width:.264583"/></g><g id="layer1" inkscape:groupmode="layer" inkscape:label="Ebene 1"><circle r="40" cy="81.64286" cx="66.145836" id="path18" style="fill:#ff8000;fill-rule:evenodd;stroke-width:.264583;fill-opacity:1"/><circle r="15" cy="104.13243" cx="69.453117" id="path20" style="fill:#000;stroke-width:.264583"/><rect ry="3.96875" y="54.777058" x="38.931549" height="27.810732" width="50.270832" id="rect22" style="fill:#000;stroke-width:.267933"/><rect transform="rotate(-32.265135)" ry="4.0632439" y="121.85104" x="-3.3865798" height="8" width="40" id="rect446" style="fill:#000;stroke-width:.264583"/><rect transform="rotate(44.16928)" style="fill:#000;stroke-width:.264583" id="rect446-9" width="40" height="8" x="93.902969" y="-6.3578906" ry="4.0632439"/></g></svg></span><span class="text-uppercase font-weight-bold">Printed Robots</span>
+		<span class="navbar-logo"><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" sodipodi:docname="logo.svg" inkscape:version="1.0 (4035a4fb49, 2020-05-01)" id="svg8" viewBox="0 0 90 90" height="90mm" width="90mm"><defs id="defs2"/><sodipodi:namedview units="mm" inkscape:window-maximized="1" inkscape:window-y="-6" inkscape:window-x="-6" inkscape:window-height="938" inkscape:window-width="1500" showgrid="false" inkscape:document-rotation="0" inkscape:current-layer="layer2" inkscape:document-units="mm" inkscape:cy="227.16396" inkscape:cx="255.99536" inkscape:zoom="1.4" inkscape:pageshadow="2" inkscape:pageopacity="0" borderopacity="1" bordercolor="#666666" pagecolor="#ffffff" id="base"/><g inkscape:label="Ebene 2" id="layer2" inkscape:groupmode="layer"><circle r="45" cy="45" cx="45" id="path24" style="fill:#000;stroke-width:.264583"/></g><g id="layer1" inkscape:groupmode="layer" inkscape:label="Ebene 1"><circle r="40" cy="44.811012" cx="45.094498" id="path18" style="fill:#ff8000;fill-opacity:1;fill-rule:evenodd;stroke-width:.264583"/><circle r="15" cy="67.300583" cx="48.401779" id="path20" style="fill:#000;stroke-width:.264583"/><rect ry="3.96875" y="17.94521" x="17.880209" height="27.810732" width="50.270832" id="rect22" style="fill:#000;stroke-width:.267933"/><rect transform="rotate(-32.265135)" ry="4.0632439" y="79.468513" x="-1.5250788" height="8" width="40" id="rect446" style="fill:#000;stroke-width:.264583"/><rect transform="rotate(44.16928)" style="fill:#000;stroke-width:.264583" id="rect446-9" width="40" height="8" x="53.139458" y="-18.108633" ry="4.0632439"/></g></svg></span><span class="text-uppercase font-weight-bold">Printed Robots</span>
 	</a>
 	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
 		<ul class="navbar-nav mt-2 mt-lg-0">
@@ -1181,7 +1181,7 @@ This is a warning with a title.
 		<br />
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Sist endret 06.06.2020: <a  href="https://github.com/Printed-Robots/webpage/commit/358db54d84221253899f6a78e9944420b02c1cb8">add logo (358db54)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Sist endret 06.06.2020: <a  href="https://github.com/Printed-Robots/webpage/commit/588ded553244c630beb6e11786a609f0aa480251">update logo size (588ded5)</a>
 </div>
 </div>
 

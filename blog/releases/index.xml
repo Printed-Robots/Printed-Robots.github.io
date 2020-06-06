@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Printed Robots – New Releases</title>
-    <link>/blog/releases/</link>
+    <link>https://printed-robots.github.io/blog/releases/</link>
     <description>Recent content in New Releases on Printed Robots</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="/blog/releases/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://printed-robots.github.io/blog/releases/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Blog: Self Balancing Robot Version 1.0</title>
-      <link>/blog/2020/06/06/self-balancing-robot-version-1.0/</link>
+      <link>https://printed-robots.github.io/blog/2020/06/06/self-balancing-robot-version-1.0/</link>
       <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2020/06/06/self-balancing-robot-version-1.0/</guid>
+      <guid>https://printed-robots.github.io/blog/2020/06/06/self-balancing-robot-version-1.0/</guid>
       <description>
         
         
@@ -30,10 +30,10 @@
     
     <item>
       <title>Blog: Self Balancing Robot Version 2.0</title>
-      <link>/blog/2020/06/06/self-balancing-robot-version-2.0/</link>
+      <link>https://printed-robots.github.io/blog/2020/06/06/self-balancing-robot-version-2.0/</link>
       <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2020/06/06/self-balancing-robot-version-2.0/</guid>
+      <guid>https://printed-robots.github.io/blog/2020/06/06/self-balancing-robot-version-2.0/</guid>
       <description>
         
         

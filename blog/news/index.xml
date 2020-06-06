@@ -14,6 +14,25 @@
     
     
     <item>
+      <title>Blog: Building a Hubless Inverted Pendulum Wheel!</title>
+      <link>/blog/2020/06/06/building-a-hubless-inverted-pendulum-wheel/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2020/06/06/building-a-hubless-inverted-pendulum-wheel/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;watch-me-build-a-hubless-inverted-pendulum-wheel&#34;&gt;Watch me build a Hubless Inverted Pendulum Wheel!&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/fcLHNTP9zKw&amp;amp;t&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
       <title>Blog: Watch this cute robot explore the world!</title>
       <link>/blog/2020/06/06/watch-this-cute-robot-explore-the-world/</link>
       <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
@@ -22,8 +41,7 @@
       <description>
         
         
-        &lt;p&gt;&lt;strong&gt;This is the initial version of my self balancing robot&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;watch-it-explore-the-world&#34;&gt;Watch it explore the world!&lt;/h2&gt;
+        &lt;h2 id=&#34;watch-it-explore-the-world&#34;&gt;Watch it explore the world!&lt;/h2&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/p-f6EHCXiaI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -41,26 +59,6 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/jsqu4re/balance_robot_msgs&#34;&gt;https://github.com/jsqu4re/balance_robot_msgs&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/jsqu4re/n2r2&#34;&gt;https://github.com/jsqu4re/n2r2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Blog: Building a Hubless Inverted Pendulum Wheel!</title>
-      <link>/blog/2020/06/06/building-a-hubless-inverted-pendulum-wheel/</link>
-      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/2020/06/06/building-a-hubless-inverted-pendulum-wheel/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;strong&gt;This is the second version of my self balancing robot&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;watch-me-build-a-hubless-inverted-pendulum-wheel&#34;&gt;Watch me build a Hubless Inverted Pendulum Wheel!&lt;/h2&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/fcLHNTP9zKw&amp;amp;t&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
 
       </description>
     </item>

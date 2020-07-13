@@ -13,7 +13,7 @@
     
     
     <item>
-      <title>Blog: Videte Wheel to climb Stairs</title>
+      <title>Blog: Videte Wheel to climb stairs</title>
       <link>https://printed-robots.github.io/blog/2020/07/08/videte-wheel-to-climb-stairs/</link>
       <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
       
@@ -21,7 +21,7 @@
       <description>
         
         
-        &lt;p&gt;Originally published on &lt;a href=&#34;https://discourse.ros.org/t/self-balancing-robot-tries-to-climb-stairs/14545&#34;&gt;discourse.ros.org&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Originally published on &lt;a href=&#34;https://discourse.ros.org/t/self-balancing-robot-tries-to-climb-stairs/14545&#34;&gt;discourse.ros.org&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;There was some encouragement to post about my balancing robot here on discourse. So I decided to write my first entry. If you want to know more, feel free to leave a comment below :) Please also write about your ideas and whether you would like to build one of these robots yourself.&lt;/p&gt;
 &lt;h1 id=&#34;why&#34;&gt;WHY&lt;/h1&gt;
 &lt;p&gt;Currently, due to current global situation, I have some free time to focus on fun projects. And this is a project which I had in mind for several years now. My goal is to build a small robot, which is capabale to ride stairs elegant &lt;a href=&#34;https://youtu.be/9NsLqvjIIIM&#34;&gt;(Not so elegant but simple solution)&lt;/a&gt; and simple &lt;a href=&#34;https://youtu.be/-u7Y6kz7S8w&#34;&gt;(Not so simple but actually quite good solution&lt;/a&gt; and &lt;a href=&#34;https://youtu.be/B4D1hpGiQ_k&#34;&gt;much less simple but awesome solution)&lt;/a&gt;&lt;/p&gt;
@@ -74,10 +74,10 @@
     
     <item>
       <title>Blog: Building a Hubless Inverted Pendulum Wheel!</title>
-      <link>https://printed-robots.github.io/blog/2020/06/06/building-a-hubless-inverted-pendulum-wheel/</link>
-      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      <link>https://printed-robots.github.io/blog/2020/05/19/building-a-hubless-inverted-pendulum-wheel/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://printed-robots.github.io/blog/2020/06/06/building-a-hubless-inverted-pendulum-wheel/</guid>
+      <guid>https://printed-robots.github.io/blog/2020/05/19/building-a-hubless-inverted-pendulum-wheel/</guid>
       <description>
         
         
@@ -93,10 +93,10 @@
     
     <item>
       <title>Blog: Watch this cute robot explore the world!</title>
-      <link>https://printed-robots.github.io/blog/2020/06/06/watch-this-cute-robot-explore-the-world/</link>
-      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      <link>https://printed-robots.github.io/blog/2020/04/20/watch-this-cute-robot-explore-the-world/</link>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://printed-robots.github.io/blog/2020/06/06/watch-this-cute-robot-explore-the-world/</guid>
+      <guid>https://printed-robots.github.io/blog/2020/04/20/watch-this-cute-robot-explore-the-world/</guid>
       <description>
         
         

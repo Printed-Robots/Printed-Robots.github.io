@@ -13,6 +13,66 @@
     
     
     <item>
+      <title>Blog: Videte Wheel to climb Stairs</title>
+      <link>https://printed-robots.github.io/blog/2020/07/08/videte-wheel-to-climb-stairs/</link>
+      <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://printed-robots.github.io/blog/2020/07/08/videte-wheel-to-climb-stairs/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Originally published on &lt;a href=&#34;https://discourse.ros.org/t/self-balancing-robot-tries-to-climb-stairs/14545&#34;&gt;discourse.ros.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There was some encouragement to post about my balancing robot here on discourse. So I decided to write my first entry. If you want to know more, feel free to leave a comment below :) Please also write about your ideas and whether you would like to build one of these robots yourself.&lt;/p&gt;
+&lt;h1 id=&#34;why&#34;&gt;WHY&lt;/h1&gt;
+&lt;p&gt;Currently, due to current global situation, I have some free time to focus on fun projects. And this is a project which I had in mind for several years now. My goal is to build a small robot, which is capabale to ride stairs elegant &lt;a href=&#34;https://youtu.be/9NsLqvjIIIM&#34;&gt;(Not so elegant but simple solution)&lt;/a&gt; and simple &lt;a href=&#34;https://youtu.be/-u7Y6kz7S8w&#34;&gt;(Not so simple but actually quite good solution&lt;/a&gt; and &lt;a href=&#34;https://youtu.be/B4D1hpGiQ_k&#34;&gt;much less simple but awesome solution)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Most solutions I found were different from what I wanted to do. But there is one video, which must be mentioned here. Because it helped me to come up with my design. &lt;a href=&#34;https://youtu.be/gs_H3TOrLxw&#34;&gt;(Clever design linked here)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The benefit of this construction is, that the balancing capabilities of the robot are available even, if the wheel is &amp;ldquo;stuck&amp;rdquo; next to a wall/staircase/etc. Due to this benefit the robot won&amp;rsquo;t be pushed away by the wall but can start to push against it and (if it has enough power) climb it &lt;a href=&#34;https://twitter.com/J2Pow/status/1268248880422010881&#34;&gt;(Not yet climbing things)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;As you have seen it is the &lt;strong&gt;goal&lt;/strong&gt; to climb stairs and the robot is not yet able to do it.&lt;/p&gt;
+&lt;p&gt;But: Utilizing only a single, simple PID controller to make the robot balance, shows - in my opinion - some potential, which is enabled by this design choice.&lt;/p&gt;
+&lt;h1 id=&#34;what&#34;&gt;WHAT&lt;/h1&gt;
+&lt;p&gt;I am using &lt;strong&gt;ROS 2.0&lt;/strong&gt; &lt;a href=&#34;https://youtu.be/IxAKFlpdcfc&#34;&gt;&lt;em&gt;(Play cheering background sound here)&lt;/em&gt;&lt;/a&gt; on a Raspberry PI 3b with a Navio2 board for the orientation measurement. Two brushless gimbal motors and two quite simple brushless gimbal motor controllers to drive the robot around. And there are a lot of 3d printed parts to form the robot itself. I hope to make these parts open source soon. &lt;a href=&#34;https://printed-robots.github.io/&#34;&gt;(Go here to find out more)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The current performance of the robot shows in my opinion some potential, but I feel there is first and foremost not enough power available in the drive train.&lt;/p&gt;
+&lt;h1 id=&#34;plans&#34;&gt;PLANS&lt;/h1&gt;
+&lt;p&gt;So my plan is to update the simple unregulated brushless controllers with the &lt;strong&gt;ODrive&lt;/strong&gt; board and add some encoders to have more power while not overheating the motors.&lt;/p&gt;
+&lt;p&gt;As soon as it can drive around safely. I would like to add some autonomous driving capabilities utilizing the lidar on top (and maybe giving the lidar some more space to better observe the environment) with the ros2 planner package. And of course I want to ride stairs (.. in matching scale)&lt;/p&gt;
+&lt;p&gt;Thats it for now :) Feel free to comment below and ..&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;THANKS FOR READING!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Enjoy making fun stuff with ros!&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Self Balancing Robot Version 2.0</title>
+      <link>https://printed-robots.github.io/blog/2020/06/10/self-balancing-robot-version-2.0/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://printed-robots.github.io/blog/2020/06/10/self-balancing-robot-version-2.0/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;self-balancing-robot-version-20-available-on-github&#34;&gt;Self Balancing Robot Version 2.0 available on Github&lt;/h2&gt;
+&lt;p&gt;Find release 2.0 here: &lt;a href=&#34;https://github.com/Printed-Robots/balancing_robot/releases/tag/2.0&#34;&gt;https://github.com/Printed-Robots/balancing_robot/releases/tag/2.0&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Self Balancing Robot Version 1.0</title>
+      <link>https://printed-robots.github.io/blog/2020/06/09/self-balancing-robot-version-1.0/</link>
+      <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://printed-robots.github.io/blog/2020/06/09/self-balancing-robot-version-1.0/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;self-balancing-robot-version-10-available-on-github&#34;&gt;Self Balancing Robot Version 1.0 available on Github&lt;/h2&gt;
+&lt;p&gt;Find release 1.0 here: &lt;a href=&#34;https://github.com/Printed-Robots/balancing_robot/releases/tag/1.0&#34;&gt;https://github.com/Printed-Robots/balancing_robot/releases/tag/1.0&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Blog: Building a Hubless Inverted Pendulum Wheel!</title>
       <link>https://printed-robots.github.io/blog/2020/06/06/building-a-hubless-inverted-pendulum-wheel/</link>
       <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
@@ -59,36 +119,6 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/jsqu4re/n2r2&#34;&gt;https://github.com/jsqu4re/n2r2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-      </description>
-    </item>
-    
-    <item>
-      <title>Blog: Self Balancing Robot Version 1.0</title>
-      <link>https://printed-robots.github.io/blog/2020/06/06/self-balancing-robot-version-1.0/</link>
-      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://printed-robots.github.io/blog/2020/06/06/self-balancing-robot-version-1.0/</guid>
-      <description>
-        
-        
-        &lt;h2 id=&#34;coming-soon&#34;&gt;Coming Soon&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;Hopefully there will be a release of version 1.0 soon.
-&lt;/code&gt;&lt;/pre&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Blog: Self Balancing Robot Version 2.0</title>
-      <link>https://printed-robots.github.io/blog/2020/06/06/self-balancing-robot-version-2.0/</link>
-      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://printed-robots.github.io/blog/2020/06/06/self-balancing-robot-version-2.0/</guid>
-      <description>
-        
-        
-        &lt;h2 id=&#34;coming-soon&#34;&gt;Coming Soon&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;Hopefully there will be a release of version 2.0 soon.
-&lt;/code&gt;&lt;/pre&gt;
       </description>
     </item>
     

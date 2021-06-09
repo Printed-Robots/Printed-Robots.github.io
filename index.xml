@@ -13,6 +13,32 @@
     
     
     <item>
+      <title>Blog: Printed Robots - Reinventing the Wheel</title>
+      <link>https://printed-robots.github.io/blog/2021/06/09/printed-robots-reinventing-the-wheel/</link>
+      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://printed-robots.github.io/blog/2021/06/09/printed-robots-reinventing-the-wheel/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;idea&#34;&gt;Idea&lt;/h2&gt;
+&lt;h2 id=&#34;hardware&#34;&gt;Hardware&lt;/h2&gt;
+&lt;h3 id=&#34;cad&#34;&gt;CAD&lt;/h3&gt;
+&lt;h3 id=&#34;building&#34;&gt;Building&lt;/h3&gt;
+&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
+&lt;h3 id=&#34;ros-20&#34;&gt;ROS 2.0&lt;/h3&gt;
+&lt;h3 id=&#34;control&#34;&gt;Control&lt;/h3&gt;
+&lt;p&gt;PID -&amp;gt; LQR -&amp;gt; MPC&lt;/p&gt;
+&lt;p&gt;SciPy&lt;/p&gt;
+&lt;h3 id=&#34;docs-as-code&#34;&gt;Docs as Code&lt;/h3&gt;
+&lt;h3 id=&#34;machine-learning&#34;&gt;Machine Learning&lt;/h3&gt;
+&lt;p&gt;Regression&lt;/p&gt;
+&lt;p&gt;Sindy&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Blog: Videte Wheel to climb stairs</title>
       <link>https://printed-robots.github.io/blog/2020/07/08/videte-wheel-to-climb-stairs/</link>
       <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>

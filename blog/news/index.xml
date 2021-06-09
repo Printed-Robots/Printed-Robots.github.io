@@ -30,6 +30,7 @@
 
 &lt;h2 id=&#34;hardware&#34;&gt;Hardware&lt;/h2&gt;
 &lt;h3 id=&#34;cad&#34;&gt;CAD&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Printed-Robots/balancing_robot/&#34;&gt;https://github.com/Printed-Robots/balancing_robot/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;building&#34;&gt;Building&lt;/h3&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
@@ -37,14 +38,28 @@
 &lt;/div&gt;
 
 &lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
-&lt;h3 id=&#34;ros-20&#34;&gt;ROS 2.0&lt;/h3&gt;
+&lt;h3 id=&#34;middleware&#34;&gt;Middleware&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ROS 2.0&lt;/li&gt;
+&lt;li&gt;iceoryx&lt;/li&gt;
+&lt;li&gt;micro controller&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;control&#34;&gt;Control&lt;/h3&gt;
-&lt;p&gt;PID -&amp;gt; LQR -&amp;gt; MPC&lt;/p&gt;
-&lt;p&gt;SciPy&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/j2pow&#34;&gt;https://twitter.com/j2pow&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;From PID to LQR with hints of MPC&lt;/li&gt;
+&lt;li&gt;SciPy - a symbolic math library (&lt;a href=&#34;https://github.com/Printed-Robots/videte_robot/blob/master/alg/videte_wheel.ipynb&#34;&gt;https://github.com/Printed-Robots/videte_robot/blob/master/alg/videte_wheel.ipynb&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;docs-as-code&#34;&gt;Docs as Code&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://printed-robots.github.io/&#34;&gt;https://printed-robots.github.io/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;machine-learning&#34;&gt;Machine Learning&lt;/h3&gt;
-&lt;p&gt;Regression&lt;/p&gt;
-&lt;p&gt;Sindy&lt;/p&gt;
+&lt;h4 id=&#34;regression&#34;&gt;Regression&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;RandomForestRegressor&lt;/li&gt;
+&lt;li&gt;KNeighborsRegressor&lt;/li&gt;
+&lt;li&gt;LinearRegression&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;sindy&#34;&gt;Sindy&lt;/h4&gt;
 
       </description>
     </item>

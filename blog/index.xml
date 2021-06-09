@@ -23,6 +23,11 @@
         
         
         &lt;h2 id=&#34;idea&#34;&gt;Idea&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/gs_H3TOrLxw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
 &lt;h2 id=&#34;hardware&#34;&gt;Hardware&lt;/h2&gt;
 &lt;h3 id=&#34;cad&#34;&gt;CAD&lt;/h3&gt;
 &lt;h3 id=&#34;building&#34;&gt;Building&lt;/h3&gt;
